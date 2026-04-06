@@ -1,0 +1,45 @@
+[build-system]
+requires      = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name        = "cao"
+version     = "0.1.0"
+description = "Curvature-aware optimization with exact Hessians via hcderiv"
+readme      = "README.md"
+license     = { text = "MIT" }
+authors     = [{ name = "Zetta Byte", email = "jaz3370@gmail.com" }]
+requires-python = ">=3.10"
+
+dependencies = [
+    "hcderiv>=0.4.0",
+    "numpy>=1.20",
+]
+
+[project.optional-dependencies]
+jax = ["jax>=0.4", "jaxlib>=0.4"]
+dev = ["pytest", "ruff", "black", "pre-commit"]
+
+[project.urls]
+Homepage      = "https://github.com/zetta55byte/cao"
+Repository    = "https://github.com/zetta55byte/cao"
+Documentation = "https://github.com/zetta55byte/cao"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length    = 100
+target-version = "py310"
+exclude        = ["dist", "build"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+ignore = ["E501"]
+
+[tool.black]
+line-length    = 100
+target-version = ["py310", "py311", "py312"]
+
+[tool.pytest.ini_options]
+addopts = "--tb=short"
