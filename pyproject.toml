@@ -21,9 +21,9 @@ jax = ["jax>=0.4", "jaxlib>=0.4"]
 dev = ["pytest", "ruff", "black", "pre-commit"]
 
 [project.urls]
-Homepage      = "https://github.com/zetta55byte/cao"
-Repository    = "https://github.com/zetta55byte/cao"
-Documentation = "https://github.com/zetta55byte/cao"
+Homepage      = "https://github.com/zetta55byte/curvopt"
+Repository    = "https://github.com/zetta55byte/curvopt"
+Documentation = "https://github.com/zetta55byte/curvopt"
 
 [tool.setuptools.packages.find]
 where = ["src"]

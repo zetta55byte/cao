@@ -1,6 +1,6 @@
 # CAO — Curvature-Aware Optimization
 
-[![CI](https://github.com/zetta55byte/cao/actions/workflows/ci.yml/badge.svg)](https://github.com/zetta55byte/cao/actions/workflows/ci.yml)
+[![CI](https://github.com/zetta55byte/curvopt/actions/workflows/ci.yml/badge.svg)](https://github.com/zetta55byte/curvopt/actions/workflows/ci.yml)
 [![PyPI](https://img.shields.io/pypi/v/cao)](https://pypi.org/project/curvopt/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
