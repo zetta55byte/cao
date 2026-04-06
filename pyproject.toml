@@ -3,7 +3,7 @@ requires      = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name        = "cao"
+name        = "curvopt"
 version     = "0.1.0"
 description = "Curvature-aware optimization with exact Hessians via hcderiv"
 readme      = "README.md"

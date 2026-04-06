@@ -1,7 +1,7 @@
 # CAO — Curvature-Aware Optimization
 
 [![CI](https://github.com/zetta55byte/cao/actions/workflows/ci.yml/badge.svg)](https://github.com/zetta55byte/cao/actions/workflows/ci.yml)
-[![PyPI](https://img.shields.io/pypi/v/cao)](https://pypi.org/project/cao/)
+[![PyPI](https://img.shields.io/pypi/v/cao)](https://pypi.org/project/curvopt/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 **CAO** provides practical second-order optimization using **exact Hessians**
@@ -16,7 +16,7 @@ No finite differences. No approximations. No step-size tuning.
 ## Install
 
 ```bash
-pip install cao                  # NumPy backend
+pip install curvopt                  # NumPy backend
 pip install "cao[jax]"           # + JAX/XLA backend (recommended)
 ```
 
