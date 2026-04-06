@@ -24,6 +24,7 @@ dev = ["pytest", "ruff", "black", "pre-commit"]
 Homepage      = "https://github.com/zetta55byte/curvopt"
 Repository    = "https://github.com/zetta55byte/curvopt"
 Documentation = "https://github.com/zetta55byte/curvopt"
+Zenodo = "https://doi.org/10.5281/zenodo.19434059"
 
 [tool.setuptools.packages.find]
 where = ["src"]
